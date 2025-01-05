@@ -32,6 +32,6 @@ jobs:
           git config --global user.email "harismehboob2019@gmail.com"
           git add "$FILE"
           git commit -m "Daily commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/harismehboob142/mean-commit.git
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/harismehboob142/DailyCommit.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
